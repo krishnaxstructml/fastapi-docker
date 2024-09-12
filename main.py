@@ -10,3 +10,8 @@ def index():
 @app.get('/ping')
 def index():
     return {'message' : '200OK'}
+
+
+@app.get('/pingtwo')
+def index():
+    return {'message' : '200OK'}
